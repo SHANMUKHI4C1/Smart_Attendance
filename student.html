@@ -1,0 +1,26 @@
+<h2>Student Dashboard</h2>
+<p>Welcome Student 🎉</p>
+
+<!-- ✅ Show QR -->
+<img src="/static/qr.png" width="300">
+
+<br><br>
+
+<!-- ✅ Attendance Form -->
+<form method="post" action="/mark_attendance">
+
+    <label>Student Name:</label><br>
+    <input name="student" required>
+    <br><br>
+
+    <label>Session ID (from QR):</label><br>
+    <input name="session" required>
+    <br><br>
+
+    <button type="submit">✅ Mark Attendance</button>
+
+</form>
+
+<br><br>
+
+<a href="/">🚪 Logout</a>
